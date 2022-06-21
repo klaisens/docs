@@ -1,6 +1,6 @@
 # Read and write operations
 
-There are some technical restrictions on reads and writes that apply to [disks](disk.md)and [file storage](filesystem.md). They're imposed on the entire diskor storage and each allocation unit (a unit of disk space allocation). The allocation unit size depends on the [diskor storage type](../concepts/limits.md#compute-limits-disks).
+There are some technical restrictions on reads and writes that apply to [disks](disk.md) and [file storage](filesystem.md). They're imposed on the entire diskor storage and each allocation unit (a unit of disk space allocation). The allocation unit size depends on the [diskor storage type](../concepts/limits.md#compute-limits-disks).
 
 The following maximum read and write operation parameters exist:
 * Maximum IOPS: The maximum number of read and write operations per second.
@@ -25,7 +25,7 @@ Where:
 
 For more information about maximum possible IOPS and bandwidth values, see [Quotas and limits](../concepts/limits.md#limits-disks).
 
-## Diskand file storage performance {#performance}
+## Disk and file storage performance {#performance}
 
 The maximum IOPS values are achieved when performing reads and writes that are 4 KB in size. Network SSDsand file storage have much higher IOPS for read operations and process requests faster than HDDs.
 
